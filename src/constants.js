@@ -1,0 +1,18 @@
+export const DB_NAME = 'movies';
+export const PARTICIPANTS_ROLE = ['Actor','Director','Producer','Musician','Writer'];
+export const MOVIE_GENRE = [
+  'Action',
+  'Comedy',
+  'Drama',
+  'Fantasy',
+  'Horror',
+  'Mystery',
+  'Romance',
+  'Thriller',
+  'Crime',
+  'Adventure',
+];
+export const USER_ROLE = ['Guest','Moderator','Admin'];
+export const DEFAULT_USER_ROLE = USER_ROLE[0];
+export const LOG_QUEUE = 'log';
+export const LOG_DB_NAME = 'analytics'; 
